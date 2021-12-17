@@ -32,7 +32,7 @@
   
 <link rel="prev" href="getting-started.html"/>
 <link rel="next" href="visualization.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -175,7 +175,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">4.1</span> EAinit</h2>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="running-ea-pipeline.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">EAinit</span> Path/to/a/DNAnexus/result/folder</span></code></pre></div>
 <p>The execution of above command will create a sub-folder (QuickOmics_[timestamp]) in the specified DNAnexus result folder.
-There will be five files in the folder:</p>
+There will be five files in the result folder:</p>
 <ul>
 <li>compareInfo.csv: an empty comparison definition file (with header). Please fill in this file before <code>EArun</code> call.</li>
 <li>config.yml: a config fill specifies the parameters of the <code>EAqc</code> and <code>EArun</code>. Please update <strong>covariates_adjust</strong> after <code>EAqc</code>.</li>
